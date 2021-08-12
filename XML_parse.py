@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 mytree = ET.parse('Book.xml')
 myroot = mytree.getroot()
 
-dictx = {'a': 1, 'b': 2, 'c':3}
+dictx = {'a': 1, 'b': 2, 'c':3, 'd':4}
 print(dictx.copy())
 
 for i in myroot.findall('book'):
